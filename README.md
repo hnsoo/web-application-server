@@ -15,7 +15,9 @@
 * 각 요구사항을 구현하는 것이 중요한 것이 아니라 구현 과정을 통해 학습한 내용을 인식하는 것이 배움에 중요하다. 
 
 ### 요구사항 1 - http://localhost:8080/index.html로 접속시 응답
-* 
+* InputStream을 읽어오기 위해서는 InputStreamReader와 BufferedReader 객체가 필요한 것을 학습
+* 각 객체는 tyr-with-resources 구문을 활용
+* 특정 경로에 존재하는 파일을 바이트 형태로 읽어 OutputStream 객체로 반환한다는 것을 학습
 
 ### 요구사항 2 - get 방식으로 회원가입
 * 
